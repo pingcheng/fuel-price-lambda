@@ -13,7 +13,7 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   }
 
   const price = await getCheapestPrice();
-  let addressString = await getAddress(price.location);
+  const addressString = await getAddress(price.location);
 
   const response = buildResponse(price, addressString);
   console.log(response);

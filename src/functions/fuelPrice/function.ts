@@ -6,7 +6,7 @@ export const main = async (event: SQSEvent): Promise<SQSBatchResponse> => {
   const records = event.Records;
   const batchItemFailures = [];
 
-  for (let record of records) {
+  for (const record of records) {
     try {
       await handle(record);
     } catch (e) {
