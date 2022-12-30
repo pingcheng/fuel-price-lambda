@@ -5,6 +5,7 @@
   "main": "serverless.ts",
   "scripts": {
     "test": "jest",
+    "lint:check": "prettier --check .",
     "deploy:local": "serverless deploy --stage local",
     "deploy:prod": "serverless deploy --stage prod"
   },

@@ -20,6 +20,9 @@ jobs:
       #      - name: Audit packages
       #        run: npm audit
 
+      - name: Check code style
+        run: npm run lint:check
+
       - name: Tests
         run: npm run test
 
