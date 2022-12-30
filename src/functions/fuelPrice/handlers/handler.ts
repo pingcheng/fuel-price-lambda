@@ -8,8 +8,8 @@ import { buildResponse } from "@functions/fuelPrice/handlers/responseBuilder";
 export const handle = async (record: SQSRecord): Promise<void> => {
   const message = JSON.parse(record.body);
 
-  if (!message.response_url) {
-    throw new Error("Did not find a slack response url");
+  if (!message.destination) {
+    throw new Error("Did not find a destination block");
   }
 
   const price = await getCheapestPrice();
@@ -18,7 +18,11 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   const response = buildResponse(price, addressString);
   console.log(response);
 
-  await axios.post(message.response_url, {
-    text: response,
+  await axios.request({
+    method: message.destination.method,
+    url: message.destination.url,
+    data: {
+      text: response,
+    },
   });
 };
