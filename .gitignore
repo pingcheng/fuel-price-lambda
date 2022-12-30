@@ -14,3 +14,6 @@ jspm_packages
 # env
 .env.prod
 .env.local
+
+# test
+coverage
