@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage",
     "lint:check": "eslint ./src",
-    "lint:style": "prettier --check .",
+    "lint:style": "prettier --check ./src",
     "deploy:local": "serverless deploy --stage local",
     "deploy:prod": "serverless deploy --stage prod"
   },
