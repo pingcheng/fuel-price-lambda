@@ -28,7 +28,7 @@ export const main = async (event: SQSEvent): Promise<SQSBatchResponse> => {
       console.log(response);
 
       await axios.post(message.response_url, {
-        "replace_original": true,
+        "replace_original": "true",
         "text": response
       })
     } catch (e) {
