@@ -18,7 +18,11 @@ export const main = async (event: SQSEvent): Promise<SQSBatchResponse> => {
       }
 
       const price = await getCheapestPrice();
-      const addressString = await getAddress(price.location);
+      let addressString = await getAddress(price.location);
+
+      if (!addressString) {
+        addressString = `${price.location.lat}, ${price.location.lng}`;
+      }
 
       const response = `Found the lowest price ${price.price} for ${price.type}, address - ${addressString}`;
       console.log(response);

@@ -21,5 +21,10 @@ export const getAddress = async (position: LatLng): Promise<String|undefined> =>
     }
 
     const address = addresses[0];
+
+    if (!addresses) {
+        return undefined;
+    }
+
     return `${address.name} ${address.locality} ${address.region_code} ${address.postal_code}`;
 }

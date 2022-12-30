@@ -20,6 +20,9 @@ jobs:
 #      - name: Audit packages
 #        run: npm audit
 
+      - name: Tests
+        run: npm run test
+
       - name: Deployment
         uses: serverless/github-action@master
         with:
