@@ -1,0 +1,1115 @@
+{
+  "updated": 1672361725,
+  "regions": [
+    {
+      "region": "All",
+      "prices": [
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 155.7,
+          "state": "NSW",
+          "type": "E10",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 157.5,
+          "state": "NSW",
+          "type": "U91",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 169.7,
+          "state": "NSW",
+          "type": "U95",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 177.7,
+          "state": "NSW",
+          "type": "U98",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.638049,
+          "postcode": "2322",
+          "name": "11-Seven Thornton",
+          "suburb": "Thornton",
+          "price": 192.9,
+          "state": "NSW",
+          "type": "Diesel",
+          "lat": -32.793227
+        },
+        {
+          "lng": 145.21493605298,
+          "postcode": "3152",
+          "name": "11-Seven Wantirna South",
+          "suburb": "Wantirna South",
+          "price": 79.9,
+          "state": "VIC",
+          "type": "LPG",
+          "lat": -37.87632839384
+        }
+      ]
+    },
+    {
+      "region": "VIC",
+      "prices": [
+        {
+          "lng": 145.02244890712,
+          "postcode": "3188",
+          "name": "11-Seven Sandringham",
+          "suburb": "Hampton",
+          "price": 157.9,
+          "state": "VIC",
+          "type": "E10",
+          "lat": -37.946704564529
+        },
+        {
+          "lng": 145.02244890712,
+          "postcode": "3188",
+          "name": "11-Seven Sandringham",
+          "suburb": "Hampton",
+          "price": 159.9,
+          "state": "VIC",
+          "type": "U91",
+          "lat": -37.946704564529
+        },
+        {
+          "lng": 145.02116629591,
+          "postcode": "3191",
+          "name": "11-Seven Sandringham",
+          "suburb": "Sandringham",
+          "price": 171.9,
+          "state": "VIC",
+          "type": "U95",
+          "lat": -37.953556273024
+        },
+        {
+          "lng": 145.02244890712,
+          "postcode": "3188",
+          "name": "11-Seven Sandringham",
+          "suburb": "Hampton",
+          "price": 179.9,
+          "state": "VIC",
+          "type": "U98",
+          "lat": -37.946704564529
+        },
+        {
+          "lng": 144.95537040635,
+          "postcode": "3061",
+          "name": "11-Seven Campbellfield",
+          "suburb": "Campbellfield",
+          "price": 196.9,
+          "state": "VIC",
+          "type": "Diesel",
+          "lat": -37.674328222173
+        },
+        {
+          "lng": 145.21493605298,
+          "postcode": "3152",
+          "name": "11-Seven Wantirna South",
+          "suburb": "Wantirna South",
+          "price": 79.9,
+          "state": "VIC",
+          "type": "LPG",
+          "lat": -37.87632839384
+        }
+      ]
+    },
+    {
+      "region": "NSW",
+      "prices": [
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 155.7,
+          "state": "NSW",
+          "type": "E10",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 157.5,
+          "state": "NSW",
+          "type": "U91",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 169.7,
+          "state": "NSW",
+          "type": "U95",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 177.7,
+          "state": "NSW",
+          "type": "U98",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 151.638049,
+          "postcode": "2322",
+          "name": "11-Seven Thornton",
+          "suburb": "Thornton",
+          "price": 192.9,
+          "state": "NSW",
+          "type": "Diesel",
+          "lat": -32.793227
+        },
+        {
+          "lng": 151.10368406843,
+          "postcode": "2221",
+          "name": "11-Seven South Hurstville",
+          "suburb": "South Hurstville",
+          "price": 87.9,
+          "state": "NSW",
+          "type": "LPG",
+          "lat": -33.97579020408
+        }
+      ]
+    },
+    {
+      "region": "QLD",
+      "prices": [
+        {
+          "lng": 151.93938470898,
+          "postcode": "4350",
+          "name": "11-Seven Harristown",
+          "suburb": "Harristown",
+          "price": 165.9,
+          "state": "QLD",
+          "type": "E10",
+          "lat": -27.576159878632
+        },
+        {
+          "lng": 151.93938470898,
+          "postcode": "4350",
+          "name": "11-Seven Harristown",
+          "suburb": "Harristown",
+          "price": 167.9,
+          "state": "QLD",
+          "type": "U91",
+          "lat": -27.576159878632
+        },
+        {
+          "lng": 151.93938470898,
+          "postcode": "4350",
+          "name": "11-Seven Harristown",
+          "suburb": "Harristown",
+          "price": 179.9,
+          "state": "QLD",
+          "type": "U95",
+          "lat": -27.576159878632
+        },
+        {
+          "lng": 151.93938470898,
+          "postcode": "4350",
+          "name": "11-Seven Harristown",
+          "suburb": "Harristown",
+          "price": 187.9,
+          "state": "QLD",
+          "type": "U98",
+          "lat": -27.576159878632
+        },
+        {
+          "lng": 153.03786253544,
+          "postcode": "4125",
+          "name": "11-Seven Regents Park",
+          "suburb": "Park Ridge",
+          "price": 199.9,
+          "state": "QLD",
+          "type": "Diesel",
+          "lat": -27.687815732944
+        },
+        {
+          "lng": 153.00763798195,
+          "postcode": "4051",
+          "name": "11-Seven Newmarket",
+          "suburb": "Newmarket",
+          "price": 99.9,
+          "state": "QLD",
+          "type": "LPG",
+          "lat": -27.438668777318
+        }
+      ]
+    },
+    {
+      "region": "WA",
+      "prices": [
+        {
+          "lng": 116.03267820716,
+          "postcode": "6056",
+          "name": "11-Seven Midvale",
+          "suburb": "Midvale",
+          "price": 159.9,
+          "state": "WA",
+          "type": "U91",
+          "lat": -31.885475189385
+        },
+        {
+          "lng": 116.03267820716,
+          "postcode": "6056",
+          "name": "11-Seven Midvale",
+          "suburb": "Midvale",
+          "price": 172.9,
+          "state": "WA",
+          "type": "U95",
+          "lat": -31.885475189385
+        },
+        {
+          "lng": 116.03267820716,
+          "postcode": "6056",
+          "name": "11-Seven Midvale",
+          "suburb": "Midvale",
+          "price": 179.9,
+          "state": "WA",
+          "type": "U98",
+          "lat": -31.885475189385
+        },
+        {
+          "lng": 115.80198497879,
+          "postcode": "6065",
+          "name": "11-Seven Wanneroo",
+          "suburb": "Wanneroo",
+          "price": 195.7,
+          "state": "WA",
+          "type": "Diesel",
+          "lat": -31.748954803681
+        }
+      ]
+    },
+    {
+      "region": "All-2",
+      "prices": [
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 156.9,
+          "state": "NSW",
+          "type": "E10",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 158.9,
+          "state": "NSW",
+          "type": "U91",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 170.9,
+          "state": "NSW",
+          "type": "U95",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 178.9,
+          "state": "NSW",
+          "type": "U98",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 150.81215874298,
+          "postcode": "2756",
+          "name": "11-Seven Windsor",
+          "suburb": "Windsor",
+          "price": 193.5,
+          "state": "NSW",
+          "type": "Diesel",
+          "lat": -33.61180019632
+        },
+        {
+          "lng": 145.31107902414,
+          "postcode": "3138",
+          "name": "11-Seven Mooroolbark",
+          "suburb": "Mooroolbark",
+          "price": 79.9,
+          "state": "VIC",
+          "type": "LPG",
+          "lat": -37.787110348631
+        }
+      ]
+    },
+    {
+      "region": "VIC-2",
+      "prices": [
+        {
+          "lng": 145.16763927476,
+          "postcode": "3201",
+          "name": "11-Seven Carrum Downs",
+          "suburb": "Carrum Downs",
+          "price": 161.9,
+          "state": "VIC",
+          "type": "E10",
+          "lat": -38.104785472889
+        },
+        {
+          "lng": 145.02116629591,
+          "postcode": "3191",
+          "name": "11-Seven Sandringham",
+          "suburb": "Sandringham",
+          "price": 159.9,
+          "state": "VIC",
+          "type": "U91",
+          "lat": -37.953556273024
+        },
+        {
+          "lng": 144.35166951217,
+          "postcode": "3216",
+          "name": "11-Seven Belmont",
+          "suburb": "Belmont",
+          "price": 183.9,
+          "state": "VIC",
+          "type": "U95",
+          "lat": -38.179222924173
+        },
+        {
+          "lng": 145.02116629591,
+          "postcode": "3191",
+          "name": "11-Seven Sandringham",
+          "suburb": "Sandringham",
+          "price": 179.9,
+          "state": "VIC",
+          "type": "U98",
+          "lat": -37.953556273024
+        },
+        {
+          "lng": 145.01181852169,
+          "postcode": "3070",
+          "name": "11-Seven Northcote",
+          "suburb": "Northcote",
+          "price": 199.7,
+          "state": "VIC",
+          "type": "Diesel",
+          "lat": -37.770641542403
+        },
+        {
+          "lng": 145.31107902414,
+          "postcode": "3138",
+          "name": "11-Seven Mooroolbark",
+          "suburb": "Mooroolbark",
+          "price": 79.9,
+          "state": "VIC",
+          "type": "LPG",
+          "lat": -37.787110348631
+        }
+      ]
+    },
+    {
+      "region": "NSW-2",
+      "prices": [
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 156.9,
+          "state": "NSW",
+          "type": "E10",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 158.9,
+          "state": "NSW",
+          "type": "U91",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 170.9,
+          "state": "NSW",
+          "type": "U95",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 151.04572793716,
+          "postcode": "2118",
+          "name": "11-Seven Carlingford",
+          "suburb": "Carlingford",
+          "price": 178.9,
+          "state": "NSW",
+          "type": "U98",
+          "lat": -33.782857682007
+        },
+        {
+          "lng": 150.81215874298,
+          "postcode": "2756",
+          "name": "11-Seven Windsor",
+          "suburb": "Windsor",
+          "price": 193.5,
+          "state": "NSW",
+          "type": "Diesel",
+          "lat": -33.61180019632
+        },
+        {
+          "lng": 151.11920301817,
+          "postcode": "2218",
+          "name": "11-Seven Allawah",
+          "suburb": "Carlton",
+          "price": 87.9,
+          "state": "NSW",
+          "type": "LPG",
+          "lat": -33.980478018249
+        }
+      ]
+    },
+    {
+      "region": "QLD-2",
+      "prices": [
+        {
+          "lng": 153.078889,
+          "postcode": "4573",
+          "name": "11-Seven Coolum Beach",
+          "suburb": "Coolum Beach",
+          "price": 167.5,
+          "state": "QLD",
+          "type": "E10",
+          "lat": -26.536238
+        },
+        {
+          "lng": 153.078889,
+          "postcode": "4573",
+          "name": "11-Seven Coolum Beach",
+          "suburb": "Coolum Beach",
+          "price": 169.5,
+          "state": "QLD",
+          "type": "U91",
+          "lat": -26.536238
+        },
+        {
+          "lng": 153.078889,
+          "postcode": "4573",
+          "name": "11-Seven Coolum Beach",
+          "suburb": "Coolum Beach",
+          "price": 181.5,
+          "state": "QLD",
+          "type": "U95",
+          "lat": -26.536238
+        },
+        {
+          "lng": 153.078889,
+          "postcode": "4573",
+          "name": "11-Seven Coolum Beach",
+          "suburb": "Coolum Beach",
+          "price": 189.5,
+          "state": "QLD",
+          "type": "U98",
+          "lat": -26.536238
+        },
+        {
+          "lng": 153.04697,
+          "postcode": "4022",
+          "name": "11-Seven Rothwell",
+          "suburb": "Rothwell",
+          "price": 201.9,
+          "state": "QLD",
+          "type": "Diesel",
+          "lat": -27.21191
+        },
+        {
+          "lng": 153.0152248845,
+          "postcode": "4503",
+          "name": "11-Seven Murrumba Downs",
+          "suburb": "Murrumba Downs",
+          "price": 105.9,
+          "state": "QLD",
+          "type": "LPG",
+          "lat": -27.273311821911
+        }
+      ]
+    },
+    {
+      "region": "WA-2",
+      "prices": [
+        {
+          "lng": 115.92381591336,
+          "postcode": "6155",
+          "name": "11-Seven Canning Vale",
+          "suburb": "Canning Vale",
+          "price": 159.9,
+          "state": "WA",
+          "type": "U91",
+          "lat": -32.09251476932
+        },
+        {
+          "lng": 115.92381591336,
+          "postcode": "6155",
+          "name": "11-Seven Canning Vale",
+          "suburb": "Canning Vale",
+          "price": 172.9,
+          "state": "WA",
+          "type": "U95",
+          "lat": -32.09251476932
+        },
+        {
+          "lng": 115.92381591336,
+          "postcode": "6155",
+          "name": "11-Seven Canning Vale",
+          "suburb": "Canning Vale",
+          "price": 179.9,
+          "state": "WA",
+          "type": "U98",
+          "lat": -32.09251476932
+        },
+        {
+          "lng": 115.80446651523,
+          "postcode": "6065",
+          "name": "11-Seven Wanneroo South",
+          "suburb": "Wanneroo",
+          "price": 195.7,
+          "state": "WA",
+          "type": "Diesel",
+          "lat": -31.754310437948
+        }
+      ]
+    },
+    {
+      "region": "All-3",
+      "prices": [
+        {
+          "lng": 145.02244890712,
+          "postcode": "3188",
+          "name": "11-Seven Sandringham",
+          "suburb": "Hampton",
+          "price": 157.9,
+          "state": "VIC",
+          "type": "E10",
+          "lat": -37.946704564529
+        },
+        {
+          "lng": 145.02244890712,
+          "postcode": "3188",
+          "name": "11-Seven Sandringham",
+          "suburb": "Hampton",
+          "price": 159.9,
+          "state": "VIC",
+          "type": "U91",
+          "lat": -37.946704564529
+        },
+        {
+          "lng": 145.02116629591,
+          "postcode": "3191",
+          "name": "11-Seven Sandringham",
+          "suburb": "Sandringham",
+          "price": 171.9,
+          "state": "VIC",
+          "type": "U95",
+          "lat": -37.953556273024
+        },
+        {
+          "lng": 145.02244890712,
+          "postcode": "3188",
+          "name": "11-Seven Sandringham",
+          "suburb": "Hampton",
+          "price": 179.9,
+          "state": "VIC",
+          "type": "U98",
+          "lat": -37.946704564529
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 193.7,
+          "state": "NSW",
+          "type": "Diesel",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 144.924081433,
+          "postcode": "3044",
+          "name": "11-Seven Pascoe Vale",
+          "suburb": "Pascoe Vale",
+          "price": 79.9,
+          "state": "VIC",
+          "type": "LPG",
+          "lat": -37.728095103204
+        }
+      ]
+    },
+    {
+      "region": "VIC-3",
+      "prices": [
+        {
+          "lng": 144.42596430695,
+          "postcode": "3340",
+          "name": "11-Seven Bacchus Marsh",
+          "suburb": "Bacchus Marsh",
+          "price": 167.9,
+          "state": "VIC",
+          "type": "E10",
+          "lat": -37.671483090971
+        },
+        {
+          "lng": 145.16763927476,
+          "postcode": "3201",
+          "name": "11-Seven Carrum Downs",
+          "suburb": "Carrum Downs",
+          "price": 163.9,
+          "state": "VIC",
+          "type": "U91",
+          "lat": -38.104785472889
+        },
+        {
+          "lng": 144.35807268927,
+          "postcode": "3214",
+          "name": "11-Seven Corio",
+          "suburb": "Corio",
+          "price": 184.9,
+          "state": "VIC",
+          "type": "U95",
+          "lat": -38.074491441135
+        },
+        {
+          "lng": 145.16763927476,
+          "postcode": "3201",
+          "name": "11-Seven Carrum Downs",
+          "suburb": "Carrum Downs",
+          "price": 183.9,
+          "state": "VIC",
+          "type": "U98",
+          "lat": -38.104785472889
+        },
+        {
+          "lng": 145.14944441773,
+          "postcode": "3173",
+          "name": "11-Seven Keysborough",
+          "suburb": "Keysborough",
+          "price": 199.7,
+          "state": "VIC",
+          "type": "Diesel",
+          "lat": -37.990896627463
+        },
+        {
+          "lng": 144.924081433,
+          "postcode": "3044",
+          "name": "11-Seven Pascoe Vale",
+          "suburb": "Pascoe Vale",
+          "price": 79.9,
+          "state": "VIC",
+          "type": "LPG",
+          "lat": -37.728095103204
+        }
+      ]
+    },
+    {
+      "region": "NSW-3",
+      "prices": [
+        {
+          "lng": 150.7898157835,
+          "postcode": "2527",
+          "name": "11-Seven Albion Park Rail South",
+          "suburb": "Albion Park Rail South",
+          "price": 157.9,
+          "state": "NSW",
+          "type": "E10",
+          "lat": -34.553516779973
+        },
+        {
+          "lng": 150.7898157835,
+          "postcode": "2527",
+          "name": "11-Seven Albion Park Rail South",
+          "suburb": "Albion Park Rail South",
+          "price": 159.9,
+          "state": "NSW",
+          "type": "U91",
+          "lat": -34.553516779973
+        },
+        {
+          "lng": 150.7898157835,
+          "postcode": "2527",
+          "name": "11-Seven Albion Park Rail South",
+          "suburb": "Albion Park Rail South",
+          "price": 171.9,
+          "state": "NSW",
+          "type": "U95",
+          "lat": -34.553516779973
+        },
+        {
+          "lng": 150.7898157835,
+          "postcode": "2527",
+          "name": "11-Seven Albion Park Rail South",
+          "suburb": "Albion Park Rail South",
+          "price": 179.9,
+          "state": "NSW",
+          "type": "U98",
+          "lat": -34.553516779973
+        },
+        {
+          "lng": 151.18002208931,
+          "postcode": "2330",
+          "name": "11-Seven Singleton",
+          "suburb": "Singleton",
+          "price": 193.7,
+          "state": "NSW",
+          "type": "Diesel",
+          "lat": -32.5693881346
+        },
+        {
+          "lng": 150.81215874298,
+          "postcode": "2756",
+          "name": "11-Seven Windsor",
+          "suburb": "Windsor",
+          "price": 89.9,
+          "state": "NSW",
+          "type": "LPG",
+          "lat": -33.61180019632
+        }
+      ]
+    },
+    {
+      "region": "QLD-3",
+      "prices": [
+        {
+          "lng": 152.96950246245,
+          "postcode": "4560",
+          "name": "11-Seven Nambour",
+          "suburb": "Nambour",
+          "price": 167.7,
+          "state": "QLD",
+          "type": "E10",
+          "lat": -26.616482640241
+        },
+        {
+          "lng": 152.96950246245,
+          "postcode": "4560",
+          "name": "11-Seven Nambour",
+          "suburb": "Nambour",
+          "price": 169.7,
+          "state": "QLD",
+          "type": "U91",
+          "lat": -26.616482640241
+        },
+        {
+          "lng": 152.96950246245,
+          "postcode": "4560",
+          "name": "11-Seven Nambour",
+          "suburb": "Nambour",
+          "price": 181.7,
+          "state": "QLD",
+          "type": "U95",
+          "lat": -26.616482640241
+        },
+        {
+          "lng": 152.96950246245,
+          "postcode": "4560",
+          "name": "11-Seven Nambour",
+          "suburb": "Nambour",
+          "price": 189.7,
+          "state": "QLD",
+          "type": "U98",
+          "lat": -26.616482640241
+        },
+        {
+          "lng": 153.04071817399,
+          "postcode": "4125",
+          "name": "11-Seven Park Ridge",
+          "suburb": "Park Ridge",
+          "price": 201.9,
+          "state": "QLD",
+          "type": "Diesel",
+          "lat": -27.699051858909
+        },
+        {
+          "lng": 153.36561543666,
+          "postcode": "4214",
+          "name": "11-Seven Ashmore",
+          "suburb": "Molendinar",
+          "price": 105.9,
+          "state": "QLD",
+          "type": "LPG",
+          "lat": -27.984646386969
+        }
+      ]
+    },
+    {
+      "region": "WA-3",
+      "prices": [
+        {
+          "lng": 115.83575668334,
+          "postcode": "6065",
+          "name": "11-Seven Landsdale",
+          "suburb": "Landsdale",
+          "price": 159.9,
+          "state": "WA",
+          "type": "U91",
+          "lat": -31.805033366763
+        },
+        {
+          "lng": 115.83575668334,
+          "postcode": "6065",
+          "name": "11-Seven Landsdale",
+          "suburb": "Landsdale",
+          "price": 172.9,
+          "state": "WA",
+          "type": "U95",
+          "lat": -31.805033366763
+        },
+        {
+          "lng": 115.83575668334,
+          "postcode": "6065",
+          "name": "11-Seven Landsdale",
+          "suburb": "Landsdale",
+          "price": 179.9,
+          "state": "WA",
+          "type": "U98",
+          "lat": -31.805033366763
+        },
+        {
+          "lng": 115.90790662794,
+          "postcode": "6090",
+          "name": "11-Seven Malaga",
+          "suburb": "Malaga",
+          "price": 195.9,
+          "state": "WA",
+          "type": "Diesel",
+          "lat": -31.856765117479
+        }
+      ]
+    },
+    {
+      "region": "ACT",
+      "prices": [
+        {
+          "lng": 149.13164806116,
+          "postcode": "2612",
+          "name": "11-Seven Braddon",
+          "suburb": "Braddon",
+          "price": 170.9,
+          "state": "ACT",
+          "type": "E10",
+          "lat": -35.275689159956
+        },
+        {
+          "lng": 149.13164806116,
+          "postcode": "2612",
+          "name": "11-Seven Braddon",
+          "suburb": "Braddon",
+          "price": 172.9,
+          "state": "ACT",
+          "type": "U91",
+          "lat": -35.275689159956
+        },
+        {
+          "lng": 149.23270612717,
+          "postcode": "2620",
+          "name": "11-Seven Karabar",
+          "suburb": "Karabar",
+          "price": 189.4,
+          "state": "NSW",
+          "type": "U95",
+          "lat": -35.371428976741
+        },
+        {
+          "lng": 149.13164806116,
+          "postcode": "2612",
+          "name": "11-Seven Braddon",
+          "suburb": "Braddon",
+          "price": 192.9,
+          "state": "ACT",
+          "type": "U98",
+          "lat": -35.275689159956
+        },
+        {
+          "lng": 149.15377975312,
+          "postcode": "2609",
+          "name": "11-Seven Fyshwick",
+          "suburb": "Fyshwick",
+          "price": 204.9,
+          "state": "ACT",
+          "type": "Diesel",
+          "lat": -35.325023870546
+        },
+        {
+          "lng": 149.01794966779,
+          "postcode": "2615",
+          "name": "11-Seven Holt",
+          "suburb": "Holt",
+          "price": 99.9,
+          "state": "ACT",
+          "type": "LPG",
+          "lat": -35.220864396177
+        }
+      ]
+    },
+    {
+      "region": "ACT-2",
+      "prices": [
+        {
+          "lng": 149.23270612717,
+          "postcode": "2620",
+          "name": "11-Seven Karabar",
+          "suburb": "Karabar",
+          "price": 175.4,
+          "state": "NSW",
+          "type": "E10",
+          "lat": -35.371428976741
+        },
+        {
+          "lng": 149.15377975312,
+          "postcode": "2609",
+          "name": "11-Seven Fyshwick",
+          "suburb": "Fyshwick",
+          "price": 172.9,
+          "state": "ACT",
+          "type": "U91",
+          "lat": -35.325023870546
+        },
+        {
+          "lng": 149.0958132946,
+          "postcode": "2913",
+          "name": "11-Seven Casey",
+          "suburb": "Casey",
+          "price": 191.4,
+          "state": "ACT",
+          "type": "U95",
+          "lat": -35.175703418388
+        },
+        {
+          "lng": 149.15377975312,
+          "postcode": "2609",
+          "name": "11-Seven Fyshwick",
+          "suburb": "Fyshwick",
+          "price": 192.9,
+          "state": "ACT",
+          "type": "U98",
+          "lat": -35.325023870546
+        },
+        {
+          "lng": 149.23270612717,
+          "postcode": "2620",
+          "name": "11-Seven Karabar",
+          "suburb": "Karabar",
+          "price": 204.9,
+          "state": "NSW",
+          "type": "Diesel",
+          "lat": -35.371428976741
+        },
+        {
+          "lng": 149.09364074683,
+          "postcode": "2607",
+          "name": "11-Seven Mawson",
+          "suburb": "Mawson",
+          "price": 99.9,
+          "state": "ACT",
+          "type": "LPG",
+          "lat": -35.365209566074
+        }
+      ]
+    },
+    {
+      "region": "ACT-3",
+      "prices": [
+        {
+          "lng": 149.09624424155,
+          "postcode": "2617",
+          "name": "11-Seven Giralang",
+          "suburb": "Giralang",
+          "price": 175.9,
+          "state": "ACT",
+          "type": "E10",
+          "lat": -35.213957370218
+        },
+        {
+          "lng": 149.23270612717,
+          "postcode": "2620",
+          "name": "11-Seven Karabar",
+          "suburb": "Karabar",
+          "price": 177.4,
+          "state": "NSW",
+          "type": "U91",
+          "lat": -35.371428976741
+        },
+        {
+          "lng": 149.091148,
+          "postcode": "2606",
+          "name": "11-Seven Phillip",
+          "suburb": "Phillip",
+          "price": 193.9,
+          "state": "ACT",
+          "type": "U95",
+          "lat": -35.355184
+        },
+        {
+          "lng": 149.23270612717,
+          "postcode": "2620",
+          "name": "11-Seven Karabar",
+          "suburb": "Karabar",
+          "price": 197.4,
+          "state": "NSW",
+          "type": "U98",
+          "lat": -35.371428976741
+        },
+        {
+          "lng": 149.09624424155,
+          "postcode": "2617",
+          "name": "11-Seven Giralang",
+          "suburb": "Giralang",
+          "price": 219.9,
+          "state": "ACT",
+          "type": "Diesel",
+          "lat": -35.213957370218
+        },
+        {
+          "lng": 149.10146298874,
+          "postcode": "2903",
+          "name": "11-Seven Erindale",
+          "suburb": "Wanniassa",
+          "price": 99.9,
+          "state": "ACT",
+          "type": "LPG",
+          "lat": -35.405606373005
+        }
+      ]
+    }
+  ]
+}
