@@ -1,3 +1,4 @@
+import { Price } from "@functions/fuelPrice/types";
 import axios from "axios";
 
 const ENDPOINT_URL = "https://projectzerothree.info/api.php?format=json";
