@@ -1,6 +1,5 @@
 import * as process from "process";
 import axios from "axios";
-import * as console from "console";
 
 const ENDPOINT_API = "http://api.positionstack.com";
 const API_KEY = process.env.POSITION_STACK_API_KEY ?? "";
@@ -28,6 +27,5 @@ export const getAddress = async (
     return undefined;
   }
 
-  console.log("Found address", address);
   return `${address.name} ${address.locality} ${address.region_code} ${address.postal_code}`;
 };
