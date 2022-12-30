@@ -15,10 +15,6 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   const price = await getCheapestPrice();
   let addressString = await getAddress(price.location);
 
-  if (!addressString) {
-    addressString = `${price.location.lat}, ${price.location.lng}`;
-  }
-
   const response = buildResponse(price, addressString);
   console.log(response);
 
