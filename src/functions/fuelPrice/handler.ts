@@ -1,15 +1,14 @@
-import {SQSBatchResponse, SQSEvent} from "aws-lambda";
+import { SQSBatchResponse, SQSEvent } from "aws-lambda";
 import * as console from "console";
-import {handle} from "@functions/fuelPrice/handlers/handler";
+import { handle } from "@functions/fuelPrice/handlers/handler";
 
 export const main = async (event: SQSEvent): Promise<SQSBatchResponse> => {
-
   const records = event.Records;
-  const batchItemFailures = []
+  const batchItemFailures = [];
 
   for (let record of records) {
     try {
-      await handle(record)
+      await handle(record);
     } catch (e) {
       console.log(`Failed to process ${record.messageId}`, e);
       batchItemFailures.push(record.messageId);
@@ -17,6 +16,6 @@ export const main = async (event: SQSEvent): Promise<SQSBatchResponse> => {
   }
 
   return {
-    batchItemFailures
-  }
-}
+    batchItemFailures,
+  };
+};

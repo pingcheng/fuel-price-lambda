@@ -1,1 +1,1 @@
-export { default as fuelPrice } from './fuelPrice';
+export { default as fuelPrice } from "./fuelPrice";
