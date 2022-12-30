@@ -1,10 +1,11 @@
 import * as process from "process";
 import axios from "axios";
+import * as console from "console";
 
 const ENDPOINT_API = 'http://api.positionstack.com';
 const API_KEY = process.env.POSITION_STACK_API_KEY ?? '';
 
-export const getAddress = async (position: LatLng): Promise<String|undefined> => {
+export const getAddress = async (position: LatLng): Promise<string|undefined> => {
 
     const response = await axios.get(`${ENDPOINT_API}/v1/reverse`, {
         params: {
@@ -26,5 +27,6 @@ export const getAddress = async (position: LatLng): Promise<String|undefined> =>
         return undefined;
     }
 
+    console.log("Found address", address);
     return `${address.name} ${address.locality} ${address.region_code} ${address.postal_code}`;
 }
