@@ -20,6 +20,7 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   const response = buildResponse({
     price,
     address: addressString,
+    userId: data.userId,
     publicMessage: data.publicMessage === true,
   });
   console.log(response);
