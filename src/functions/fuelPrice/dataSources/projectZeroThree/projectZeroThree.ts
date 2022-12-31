@@ -3,20 +3,24 @@ import axios from "axios";
 
 const ENDPOINT_URL = "https://projectzerothree.info/api.php?format=json";
 
-export const getCheapestPrice = async (): Promise<Price | undefined> => {
+export const getCheapestPrice = async (
+  fuelType: string
+): Promise<Price | undefined> => {
   const response = await axios.get(ENDPOINT_URL);
   const regionAll = response.data.regions.find(
     (region) => region.region === "All"
   );
-  const u91Price = regionAll.prices.find((price) => price.type === "U91");
+  const price = regionAll.prices.find(
+    (price) => price.type.toLowerCase() === fuelType.toLowerCase()
+  );
 
-  if (u91Price) {
+  if (price) {
     return {
-      type: u91Price.type,
-      price: u91Price.price,
+      type: price.type,
+      price: price.price,
       location: {
-        lat: u91Price.lat,
-        lng: u91Price.lng,
+        lat: price.lat,
+        lng: price.lng,
       },
     };
   }

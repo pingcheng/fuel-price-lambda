@@ -12,11 +12,17 @@ export const handle = async (record: SQSRecord): Promise<void> => {
     throw new Error("Did not find a destination block");
   }
 
-  const price = await getCheapestPrice();
+  const data = message.data ?? {};
+
+  const price = await getCheapestPrice(data.fuelType ?? "U91");
   const addressString = await getAddress(price.location);
 
   const response = buildResponse(price, addressString);
   console.log(response);
+
+  if (data.publicMessage) {
+    response.response_type = "in_channel";
+  }
 
   await axios.request({
     method: message.destination.method,

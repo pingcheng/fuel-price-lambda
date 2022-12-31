@@ -2,6 +2,7 @@ import { Price } from "@functions/fuelPrice/types";
 
 export const buildResponse = (price: Price, address: string) => {
   return {
+    response_type: "ephemeral",
     blocks: [
       {
         type: "section",
