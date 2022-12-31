@@ -21,8 +21,6 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   await axios.request({
     method: message.destination.method,
     url: message.destination.url,
-    data: {
-      text: response,
-    },
+    data: response,
   });
 };
