@@ -6,6 +6,7 @@ import axios from "axios";
 import { buildResponse } from "@functions/fuelPrice/handlers/responseBuilder";
 
 export const handle = async (record: SQSRecord): Promise<void> => {
+  console.log("Start to process message", record.body);
   const message = JSON.parse(record.body);
 
   if (!message.destination) {
@@ -13,8 +14,12 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   }
 
   const data = message.data ?? {};
+  const fuelType = data.fuelType ?? "U91";
 
-  const price = await getCheapestPrice(data.fuelType ?? "U91");
+  console.log(`Start to get cheapest price for ${fuelType}`);
+  const price = await getCheapestPrice(fuelType);
+
+  console.log(`Try to parse address for`, price.location);
   const addressString = await getAddress(price.location);
 
   const response = buildResponse({
