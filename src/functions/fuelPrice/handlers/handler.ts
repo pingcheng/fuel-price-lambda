@@ -17,12 +17,12 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   const price = await getCheapestPrice(data.fuelType ?? "U91");
   const addressString = await getAddress(price.location);
 
-  const response = buildResponse(price, addressString);
+  const response = buildResponse({
+    price,
+    address: addressString,
+    publicMessage: data.publicMessage === true,
+  });
   console.log(response);
-
-  if (data.publicMessage) {
-    response.response_type = "in_channel";
-  }
 
   await axios.request({
     method: message.destination.method,

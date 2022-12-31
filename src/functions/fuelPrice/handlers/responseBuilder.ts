@@ -1,14 +1,32 @@
 import { Price } from "@functions/fuelPrice/types";
 
-export const buildResponse = (price: Price, address: string) => {
+type BuildResponseConfig = {
+  price: Price;
+  address: string;
+  userId?: string;
+  publicMessage?: boolean;
+};
+
+export const buildResponse = ({
+  price,
+  address,
+  userId = undefined,
+  publicMessage = false,
+}: BuildResponseConfig) => {
+  let greetingMessage = "We found the latest lowest price for you! :v:";
+
+  if (userId) {
+    greetingMessage = `Hi <@${userId}>\n${greetingMessage}`;
+  }
+
   return {
-    response_type: "ephemeral",
+    response_type: publicMessage ? "in_channel" : "ephemeral",
     blocks: [
       {
         type: "section",
         text: {
           type: "mrkdwn",
-          text: "We found the latest lowest price for you! :v:",
+          text: greetingMessage,
         },
       },
       {
