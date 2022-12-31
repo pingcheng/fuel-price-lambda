@@ -9,6 +9,7 @@ const prepareScope = () => {
       access_key: "",
       query: "-32.5693881346,151.18002208931",
       country: "AU",
+      limit: 1,
     })
     .reply(200, successResponse);
 };
