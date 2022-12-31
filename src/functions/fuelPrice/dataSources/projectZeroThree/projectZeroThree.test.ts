@@ -15,13 +15,13 @@ describe("test projectZeroThree", () => {
   describe("test getCheapestPrice", () => {
     test("should hit the correct URL", async () => {
       const scope = prepareScope();
-      await getCheapestPrice();
+      await getCheapestPrice("U91");
       scope.done();
     });
 
     test("should return the cheapest price object", async () => {
       prepareScope();
-      const response = await getCheapestPrice();
+      const response = await getCheapestPrice("U91");
       expect(response).toEqual({
         type: "U91",
         price: 157.5,
