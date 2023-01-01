@@ -13,5 +13,5 @@ export const validateMessage = (message: FuelPriceMessage): string[] => {
 };
 
 const validateFuelType = (fuelType): boolean => {
-  return ["E10", "U91", "U95", "U98", "Diesel"].includes(fuelType);
+  return ["E10", "U91", "U95", "U98", "Diesel", "LPG"].includes(fuelType);
 };
