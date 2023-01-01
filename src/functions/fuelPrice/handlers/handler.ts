@@ -1,6 +1,6 @@
 import { SQSRecord } from "aws-lambda";
-import { getCheapestPrice } from "@functions/fuelPrice/dataSources/projectZeroThree/projectZeroThree";
-import { getAddress } from "@functions/fuelPrice/dataSources/positionStack/positionStack";
+import { getCheapestPrice } from "@functions/fuelPrice/apis/projectZeroThree/projectZeroThree";
+import { getAddress } from "@functions/fuelPrice/apis/positionStack/positionStack";
 import axios from "axios";
 import { buildResponse } from "@functions/fuelPrice/handlers/responseBuilder";
 
