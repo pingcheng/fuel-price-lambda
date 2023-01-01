@@ -1,6 +1,8 @@
 import { FuelPriceMessage } from "@functions/fuelPrice/types";
+import * as console from "console";
 
 export const validateMessage = (message: FuelPriceMessage): string[] => {
+  console.log("Try to validate message");
   const errors = [];
 
   if (!validateFuelType(message.data.fuelType)) {
@@ -8,6 +10,7 @@ export const validateMessage = (message: FuelPriceMessage): string[] => {
       `Fuel type "${message.data.fuelType}" is not a valid fuel type`
     );
   }
+  console.log(`${errors.length} errors found on message validation`, errors);
 
   return errors;
 };

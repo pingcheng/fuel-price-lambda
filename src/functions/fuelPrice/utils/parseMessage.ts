@@ -14,6 +14,7 @@ export const defaultMessage: FuelPriceMessage = {
 };
 
 export const parseMessage = (message: string): FuelPriceMessage => {
+  console.log("Start to parse message", message);
   const parsedMessage = JSON.parse(message);
   return merge(defaultMessage, parsedMessage);
 };

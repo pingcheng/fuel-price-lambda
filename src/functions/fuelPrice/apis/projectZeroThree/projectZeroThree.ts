@@ -6,7 +6,9 @@ const ENDPOINT_URL = "https://projectzerothree.info/api.php?format=json";
 export const getCheapestPrice = async (
   fuelType: string
 ): Promise<Price | undefined> => {
+  console.log("Start to projectZeroThree to retrieve fuel prices");
   const response = await axios.get(ENDPOINT_URL);
+  console.log("Received fuel prices");
   const regionAll = response.data.regions.find(
     (region) => region.region === "All"
   );

@@ -7,6 +7,7 @@ const API_KEY = process.env.POSITION_STACK_API_KEY ?? "";
 export const getAddress = async (
   position: LatLng
 ): Promise<string | undefined> => {
+  console.log(`Start to call positionStack to parse`, position);
   const response = await axios.get(`${ENDPOINT_API}/v1/reverse`, {
     params: {
       access_key: API_KEY,
@@ -16,7 +17,7 @@ export const getAddress = async (
     },
   });
 
-  console.log("Received address info from API", response.data);
+  console.log("Received address info from positionStack", response.data);
 
   const addresses = response.data.data;
 
