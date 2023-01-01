@@ -1,7 +1,7 @@
 import { Destination } from "@functions/fuelPrice/types";
 import axios from "axios";
 
-export const sendMessage = async (
+export const sendRequest = async (
   destination: Destination,
   data
 ): Promise<void> => {

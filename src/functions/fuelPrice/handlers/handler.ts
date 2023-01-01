@@ -4,7 +4,7 @@ import { getAddress } from "@functions/fuelPrice/apis/positionStack/positionStac
 import { buildResponse } from "@functions/fuelPrice/utils/buildResponse";
 import { validateFuelType } from "@functions/fuelPrice/utils/validateFuelType";
 import { buildErrorResponse } from "@functions/fuelPrice/utils/buildErrorResponse";
-import { sendMessage } from "@functions/fuelPrice/utils/sendMessage";
+import { sendRequest } from "@functions/fuelPrice/utils/sendRequest";
 import { parseMessage } from "@functions/fuelPrice/utils/parseMessage";
 import { isEmpty } from "lodash";
 
@@ -23,7 +23,7 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   const fuelType = validateFuelType(data.fuelType, "U91");
   if (!fuelType) {
     console.log(`Fuel type "${data.fuelType} is not a valid fuel type`);
-    await sendMessage(
+    await sendRequest(
       message.destination,
       buildErrorResponse({
         message: `ERROR: "${data.fuelType}" is not a valid fuel type.`,
@@ -48,5 +48,5 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   });
   console.log(response);
 
-  await sendMessage(message.destination, response);
+  await sendRequest(message.destination, response);
 };
