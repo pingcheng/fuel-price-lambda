@@ -1,5 +1,4 @@
 import { SQSBatchItemFailure, SQSBatchResponse, SQSEvent } from "aws-lambda";
-import * as console from "console";
 import { handle } from "@functions/fuelPrice/handlers/handler";
 
 export const main = async (event: SQSEvent): Promise<SQSBatchResponse> => {

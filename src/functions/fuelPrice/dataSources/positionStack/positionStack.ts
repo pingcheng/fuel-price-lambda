@@ -1,7 +1,5 @@
-import * as process from "process";
 import axios from "axios";
 import { LatLng } from "@functions/fuelPrice/types";
-import console from "console";
 
 const ENDPOINT_API = "http://api.positionstack.com";
 const API_KEY = process.env.POSITION_STACK_API_KEY ?? "";
