@@ -3,6 +3,8 @@ import { getCheapestPrice } from "@functions/fuelPrice/apis/projectZeroThree/pro
 import { getAddress } from "@functions/fuelPrice/apis/positionStack/positionStack";
 import axios from "axios";
 import { buildResponse } from "@functions/fuelPrice/handlers/responseBuilder";
+import { validateFuelType } from "@functions/fuelPrice/utils/validateFuelType";
+import { buildErrorResponse } from "@functions/fuelPrice/utils/buildErrorResponse";
 
 export const handle = async (record: SQSRecord): Promise<void> => {
   console.log("Start to process message", record.body);
@@ -13,7 +15,20 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   }
 
   const data = message.data ?? {};
-  const fuelType = data.fuelType ?? "U91";
+
+  console.log("Try to validate fuel type");
+  const fuelType = validateFuelType(data.fuelType, "U91");
+  if (!fuelType) {
+    console.log(`Fuel type "${data.fuelType} is not a valid fuel type`);
+    await axios.request({
+      method: message.destination.method,
+      url: message.destination.url,
+      data: buildErrorResponse({
+        message: `ERROR: "${data.fuelType}" is not a valid fuel type.`,
+      }),
+    });
+    return;
+  }
 
   console.log(`Start to get cheapest price for ${fuelType}`);
   const price = await getCheapestPrice(fuelType);
