@@ -29,7 +29,7 @@ export const handle = async (record: SQSRecord): Promise<void> => {
 
   // step 3. call apis to fetch required data
   const price = await getCheapestPrice(message.data.fuelType);
-  const addressString = await getAddress(message.price.location);
+  const addressString = await getAddress(price.location);
 
   // step 4. reply to slack
   const response = buildResponse({
