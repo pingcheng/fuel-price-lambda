@@ -2,7 +2,7 @@ import { SQSRecord } from "aws-lambda";
 import { getCheapestPrice } from "@functions/fuelPrice/apis/projectZeroThree/projectZeroThree";
 import { getAddress } from "@functions/fuelPrice/apis/positionStack/positionStack";
 import axios from "axios";
-import { buildResponse } from "@functions/fuelPrice/handlers/responseBuilder";
+import { buildResponse } from "@functions/fuelPrice/utils/buildResponse";
 import { validateFuelType } from "@functions/fuelPrice/utils/validateFuelType";
 import { buildErrorResponse } from "@functions/fuelPrice/utils/buildErrorResponse";
 
