@@ -31,5 +31,11 @@ describe("test projectZeroThree", () => {
         },
       });
     });
+
+    test("should return undefined when the fuel type is not found", async () => {
+      prepareScope();
+      const response = await getCheapestPrice("RANDOM");
+      expect(response).toBeUndefined();
+    });
   });
 });
