@@ -3,7 +3,7 @@ export const validateFuelType = (
   defaultFuelType
 ): string | undefined => {
   const fuelType = targetFuelType ?? defaultFuelType;
-  const validFuelTypes = ["E10", "U91", "U95", "U98", "Diesel"];
+  const validFuelTypes = ["E10", "U91", "U95", "U98", "Diesel", "LPG"];
 
   if (validFuelTypes.includes(fuelType)) {
     return fuelType;
