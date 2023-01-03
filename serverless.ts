@@ -21,6 +21,19 @@ const serverlessConfiguration: AWS & Lift = {
     },
     stage: "local",
     region: "ap-southeast-2",
+    iam: {
+      role: {
+        statements: [
+          {
+            Effect: "Allow",
+            Action: "dynamodb:PutItem",
+            Resource: {
+              "Fn::GetAtt": ["fuelPriceTable", "Arn"],
+            },
+          },
+        ],
+      },
+    },
   },
   // import the function via paths
   constructs: {
