@@ -6,6 +6,6 @@ export default {
   timeout: 15,
   environment: {
     POSITION_STACK_API_KEY: "${env:POSITION_STACK_API_KEY}",
-    AWS_ENDPOINT: "${env:AWS_ENDPOINT}",
+    AWS_ENDPOINT: "${env:AWS_ENDPOINT, ''}",
   },
 };
