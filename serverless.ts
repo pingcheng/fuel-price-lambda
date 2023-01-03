@@ -29,6 +29,30 @@ const serverlessConfiguration: AWS & Lift = {
       worker: fuelPrice,
     },
   },
+  resources: {
+    Resources: {
+      fuelPriceTable: {
+        Type: "AWS::DynamoDB::Table",
+        Properties: {
+          TableName: "fuelPriceTable",
+          TableClass: "STANDARD",
+          BillingMode: "PAY_PER_REQUEST",
+          AttributeDefinitions: [
+            {
+              AttributeName: "uuid",
+              AttributeType: "S",
+            },
+          ],
+          KeySchema: [
+            {
+              AttributeName: "uuid",
+              KeyType: "HASH",
+            },
+          ],
+        },
+      },
+    },
+  },
   package: { individually: true },
   custom: {
     esbuild: {
