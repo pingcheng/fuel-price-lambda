@@ -7,6 +7,7 @@ import { sendRequest } from "@functions/fuelPrice/utils/sendRequest";
 import { parseMessage } from "@functions/fuelPrice/utils/parseMessage";
 import { isEmpty } from "lodash";
 import { validateMessage } from "@functions/fuelPrice/utils/validateMessage";
+import { recordResponse } from "@functions/fuelPrice/utils/recordResponse/recordResponse";
 
 export const handle = async (record: SQSRecord): Promise<void> => {
   // step 1. parse and check the message
@@ -40,5 +41,6 @@ export const handle = async (record: SQSRecord): Promise<void> => {
   });
   console.log("Prepared slack response", response);
 
+  await recordResponse(price, addressString);
   await sendRequest(message.destination, response);
 };
