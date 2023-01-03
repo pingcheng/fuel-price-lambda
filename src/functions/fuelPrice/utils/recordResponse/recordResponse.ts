@@ -1,13 +1,10 @@
 import AWS from "aws-sdk";
 import { Price } from "@functions/fuelPrice/types";
 import { v4 as uuidV4 } from "uuid";
-import { isEmpty } from "lodash";
 
 const dynamoDB = new AWS.DynamoDB.DocumentClient({
   region: "ap-southeast-2",
-  endpoint: isEmpty(process.env.AWS_ENDPOINT)
-    ? process.env.AWS_ENDPOINT
-    : undefined,
+  endpoint: process.env.AWS_ENDPOINT ?? undefined,
 });
 
 export const recordResponse = async (
