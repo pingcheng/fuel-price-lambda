@@ -1,4 +1,5 @@
 import { Price } from "@functions/fuelPrice/types";
+import * as console from "console";
 
 type BuildResponseConfig = {
   price: Price;
@@ -19,7 +20,7 @@ export const buildResponse = ({
     greetingMessage = `Hi <@${userId}>\n${greetingMessage}`;
   }
 
-  return {
+  const response = {
     response_type: publicMessage ? "in_channel" : "ephemeral",
     blocks: [
       {
@@ -60,4 +61,8 @@ export const buildResponse = ({
       },
     ],
   };
+
+  console.log("Built response", response);
+
+  return response;
 };
