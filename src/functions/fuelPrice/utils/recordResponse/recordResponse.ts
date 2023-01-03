@@ -2,9 +2,11 @@ import AWS from "aws-sdk";
 import { Price } from "@functions/fuelPrice/types";
 import { v4 as uuidV4 } from "uuid";
 
+AWS.config.update({ region: "ap-southeast-2" });
 const dynamoDB = new AWS.DynamoDB.DocumentClient({
-  region: "ap-southeast-2",
-  endpoint: process.env.AWS_ENDPOINT ?? undefined,
+  httpOptions: {
+    timeout: 5000,
+  },
 });
 
 export const recordResponse = async (

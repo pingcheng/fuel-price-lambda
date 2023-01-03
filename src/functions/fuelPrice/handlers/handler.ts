@@ -39,8 +39,8 @@ export const handle = async (record: SQSRecord): Promise<void> => {
     userId: message.data.userId,
     publicMessage: message.data.publicMessage === true,
   });
-  console.log("Prepared slack response", response);
 
+  // step 5. record and return
   await recordResponse(price, addressString);
   await sendRequest(message.destination, response);
 };
