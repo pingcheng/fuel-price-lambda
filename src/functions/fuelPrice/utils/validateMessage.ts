@@ -1,5 +1,4 @@
 import { FuelPriceMessage } from "@functions/fuelPrice/types";
-import * as console from "console";
 
 export const validateMessage = (message: FuelPriceMessage): string[] => {
   console.log("Try to validate message");
