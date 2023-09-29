@@ -18,6 +18,7 @@ export type FuelPriceMessage = {
   destination: Destination;
   data: {
     fuelType: string;
+    state?: string;
     publicMessage: boolean;
     userId?: string;
   };

@@ -8,6 +8,7 @@ export const defaultMessage: FuelPriceMessage = {
   },
   data: {
     fuelType: "",
+    state: "all",
     publicMessage: false,
     userId: undefined,
   },
