@@ -32,6 +32,19 @@ describe("test projectZeroThree", () => {
       });
     });
 
+    test("should return the cheapest price object with specified state", async () => {
+      prepareScope();
+      const response = await getCheapestPrice("U91", "vic");
+      expect(response).toEqual({
+        type: "U91",
+        price: 159.9,
+        location: {
+          lat: -37.946704564529,
+          lng: 145.02244890712,
+        },
+      });
+    });
+
     test("should return undefined when the fuel type is not found", async () => {
       prepareScope();
       const response = await getCheapestPrice("RANDOM");
