@@ -10,7 +10,7 @@ const serverlessConfiguration: AWS & Lift = {
   plugins: ["serverless-esbuild", "serverless-lift", "serverless-localstack"],
   provider: {
     name: "aws",
-    runtime: "nodejs16.x",
+    runtime: "nodejs18.x",
     apiGateway: {
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,
